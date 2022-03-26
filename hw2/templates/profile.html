@@ -1,0 +1,11 @@
+<html>
+<head>
+	<title>Profile</title>
+</head>
+<body>
+<h3>User Profile</h3>
+{% for mesg in get_flashed_messages() %}
+<p>Welcome user: {{ mesg }}</p>
+{% endfor %}
+</body>
+</html>
